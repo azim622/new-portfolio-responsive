@@ -159,9 +159,7 @@ footer input[type="text"], footer input[type="text"], footer textarea{
 }
 
 /* responsive media quarfy */
-.hide{
-    display: none;
-}
+
 @media screen and (max-width:576px) {
     .skills-container{
         flex-direction: column;
@@ -204,5 +202,12 @@ footer input[type="text"], footer input[type="text"], footer textarea{
     }
     .btn-primary{
         margin-bottom: 20px;
+    }
+}
+
+/* medum device quary */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner{
+        flex-direction: column;
     }
 }
